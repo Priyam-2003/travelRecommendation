@@ -122,18 +122,18 @@ body {
 .social-icons i:hover {
     opacity: 0.7;
 }
-.home {
+.Home {
     position: relative;
     z-index: 2;
     max-width: 550px;
 }
-.home h1 {
+.Home h1 {
     font-size: 70px;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 20px;
 }
-.home p {
+.Home p {
     font-size: 16px;
     width: 80%;
     margin-bottom: 30px;
@@ -153,4 +153,12 @@ body {
     background-color: #0c5652;
 }
 
-
+.deactive{
+    display: none;
+}
+/* .About{
+    display: none;
+}
+.Contact{
+    display: none;
+} */
