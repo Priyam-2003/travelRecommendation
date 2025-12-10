@@ -99,7 +99,6 @@ body {
     align-items: center;
     padding-left: 100px;
     color: white;
-    object-fit: fill;
 }
 
 .social-icons {
@@ -156,9 +155,81 @@ body {
 .deactive{
     display: none;
 }
-/* .About{
-    display: none;
+
+/* ABOUT SECTION */
+.about-us {
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
 }
-.Contact{
-    display: none;
-} */
+
+.about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* OUR TEAM */
+.our-team {
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.our-team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 260px;
+    backdrop-filter: blur(6px);
+    transition: 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.member-photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.member-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.member-role {
+    font-size: 1rem;
+    color: #00aaff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.member-desc {
+    font-size: 0.95rem;
+    color: #eaeaea;
+}
+
