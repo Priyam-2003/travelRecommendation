@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff;
+    background-image: url("https://images.pexels.com/photos/2040626/pexels-photo-2040626.jpeg?cs=srgb&dl=pexels-jaxson-bryden-1058716-2040626.jpg&fm=jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+/* For Nav style */
+.navbar {
+    width: 100%;
+    background: #0f1f1e;
+    color: white;
+    padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 260px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-btn,
+.clear-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 12px;
+    background: #0b7a74;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.clear-btn {
+    background: #005f73;
+}
+
+.search-btn:hover,
+.clear-btn:hover {
+    opacity: 0.8;
+}
+
+/* For Home page style */
+.hero {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    color: white;
+    object-fit: fill;
+}
+
+.social-icons {
+    position: absolute;
+    left: 40px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 24px;
+    z-index: 2;
+}
+
+.social-icons i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    opacity: 0.7;
+}
+.home {
+    position: relative;
+    z-index: 2;
+    max-width: 550px;
+}
+.home h1 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.home p {
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.book-btn {
+    padding: 12px 35px;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0b7a74;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #0c5652;
+}
+
+
