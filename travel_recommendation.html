@@ -24,7 +24,7 @@
             <li id="Contact"><a href="#">Contact Us</a></li>
         </ul>
 
-        <div class="search-bar">
+        <div class="search-bar deactive">
             <input type="text" placeholder="Enter a destination or keyword">
             <button class="search-btn">Search</button>
             <button class="clear-btn">Clear</button>
@@ -55,10 +55,10 @@
                 <button class="book-btn">BOOK NOW</button>
             </div>
             <div class="About deactive">
-                    <div class="About-container">
-                        <h1>About Us</h1>
-                        <div class="about-text">
-                             <p>
+                <div class="About-container">
+                    <h1>About Us</h1>
+                    <div class="about-text">
+                        <p>
                             Welcome to Our Company! We are a team of passionate individuals dedicated to providing
                             excellent services/products to our customers.
                             Our mission is to provide the best experience for people traveling to different destinations
@@ -67,58 +67,75 @@
                             We believe in putting our customers first and working together to achieve our goals.<br>
                             Feel free to explore our website to learn more about what we offer!
                         </p>
-                        </div>
-                       
                     </div>
+
+                </div>
 
                 <!-- Our Team Section -->
-                    <div class="team-container">
-                        <h2>Our <br> Team</h2>
-                        <div class="team-members">
-                            <div class="team-member">
-                                <div class="member-photo">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4wpu3vGGgESd8xEb_j1WXzYWOpG3Dj533tg&s" alt="John Doe">
-                                </div>
-                                <h3 class="member-name">John Doe</h3>
-                                <p class="member-desc">
-                                    John is responsible for...
-                                </p>
-                                <div class="member-role">
-                                    <span>CEO</span>
-                                </div>
+                <div class="team-container">
+                    <h2>Our <br> Team</h2>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4wpu3vGGgESd8xEb_j1WXzYWOpG3Dj533tg&s"
+                                    alt="John Doe">
                             </div>
-
-                            <div class="team-member">
-                                <div class="member-photo">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3Q-GH7Y7PtMZpwqHy_Gdk3Efwcy4FK2uyg&s" alt="Celina Thomas">
-                                </div>
-                                <h3 class="member-name">Celina Thomas</h3>
-                               <p class="member-desc">
-                                    Celina Thomas is responsible for...
-                                </p>
-                                <div class="member-role">
-                                    <span>Team Lead</span>
-                                </div>
+                            <h3 class="member-name">John Doe</h3>
+                            <p class="member-desc">
+                                John is responsible for...
+                            </p>
+                            <div class="member-role">
+                                <span>CEO</span>
                             </div>
-
-                            <div class="team-member">
-                                <div class="member-photo">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYti17WLeplomo71Qxmf1iTtpVCE0PSI80A&s" alt="Mike Tysen">
-                                </div>
-                                <h3 class="member-name">Mike Tysen</h3>
-                                <p class="member-desc">
-                                    Mike Tysen is responsible for...
-                                </p>
-                                <div class="member-role">
-                                    <span>Delhivery Head</span>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3Q-GH7Y7PtMZpwqHy_Gdk3Efwcy4FK2uyg&s"
+                                    alt="Celina Thomas">
+                            </div>
+                            <h3 class="member-name">Celina Thomas</h3>
+                            <p class="member-desc">
+                                Celina Thomas is responsible for...
+                            </p>
+                            <div class="member-role">
+                                <span>Team Lead</span>
+                            </div>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYti17WLeplomo71Qxmf1iTtpVCE0PSI80A&s"
+                                    alt="Mike Tysen">
+                            </div>
+                            <h3 class="member-name">Mike Tysen</h3>
+                            <p class="member-desc">
+                                Mike Tysen is responsible for...
+                            </p>
+                            <div class="member-role">
+                                <span>Delhivery Head</span>
+                            </div>
+                        </div>
+
                     </div>
+                </div>
             </div>
             <div class="Contact deactive">
-                <h1>Contact Sec</h1>
+                <div class="Conatctus-container">
+                    <h1 class="contact-title">CONTACT US</h1>
+                    <span>Get in touch</span>
+                </div>
+                    <div class="contact-container">
+                        <form class="contact-form">
+                            <label for="Name">Name</label>
+                            <input type="text" placeholder="Enter your name" id="Name">
+                            <label for="Email">Email</label>
+                            <input type="email" placeholder="Enter your email" id="Email" required>
+                            <label for="Message">Message</label>
+                            <textarea placeholder="Enter you message" id="Message" required></textarea>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
             </div>
         </section>
     </main>
