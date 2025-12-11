@@ -1,7 +1,7 @@
 const navLinks = document.querySelectorAll('.nav-links li');
 const sections = document.querySelectorAll('section .Home, section .About, section .Contact');
 sections.forEach(sec => {
-    if(sec.classList.contains('Home')) {
+    if(sec.classList.contains('Contact')) {
         sec.classList.remove('deactive');
     } else {
         sec.classList.add('deactive');
