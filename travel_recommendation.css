@@ -11,7 +11,7 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-    overflow: hidden;
+    overflow: scroll;
 }
 
 /* For Nav style */
@@ -24,7 +24,7 @@ body {
     padding: 12px 40px 12px 5px;
     display: flex;
     align-items: center;
-    gap: 170px;
+    gap: 165px;
     z-index: 5;
 }
 
@@ -320,4 +320,54 @@ body {
 }
 .deactive{
     display: none;
+}
+
+/* For Search Suggestion  */
+.search-suggestion{
+    max-width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.search-img img{
+    width: 400px;
+   height: 250px;
+   object-fit: cover;
+}
+.search-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+     border-radius: 10px;
+}
+.search-place h2{
+    font-size: 1.2rem;
+    font-weight:500;
+    color: #1a2020;
+    padding: 10px 15px;
+}
+.search-desc p{
+    color: rgb(81, 80, 80);
+    font-size: 0.85rem;
+    padding-left: 15px;
+}
+.visit-button{
+    background-color: #3498db; 
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px;
+    max-width: 80px;
+}
+
+.visit-button:hover {
+    background-color: #1a4b69;
 }
